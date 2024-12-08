@@ -1,0 +1,56 @@
+
+/* Hero Section */
+.hero-section{
+  height: 100vh;
+ background-image: url("babcock.jpeg");
+ background-position: center;
+ background-repeat: none;
+ background-size: cover;
+  color: white;
+}
+.btn-custom {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: white;
+  color: black;
+}
+/* Content Section */
+.content-section {
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark text for contrast */
+}
+.content-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("babcock.jpeg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
