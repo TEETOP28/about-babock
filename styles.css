@@ -17,6 +17,7 @@
   border: 2px solid white;
   border-radius: 5px;
   transition: all 0.3s ease;
+  float: left;
 }
 .btn-custom:hover {
   background-color: white;
