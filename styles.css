@@ -43,15 +43,32 @@ body, html {
   margin: 0;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("babcock.jpeg");
 
-  /* Full height */
-  height: 100%; 
 
-  /* Center and scale the image nicely */
-  background-position: center;
+
+.three-columns-section {
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333; /* Dark text */
+}
+.three-columns-section img {
+  max-width: 80%;
+  height: auto;
+  padding: 50px;
+  margin: 50px;
+}
+.three-columns-section p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+h2{
+  color: #493F1B;
+  font: sentient;
+}
+.image {
+  background-image: url("section-3 background.png");
   background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
   background-size: cover;
+  height: 250PX;
 }
