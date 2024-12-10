@@ -51,14 +51,15 @@ body, html {
   color: #333; /* Dark text */
 }
 .three-columns-section img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   padding: 50px;
   margin: 50px;
+   
 }
 .three-columns-section p {
-  font-size: 1rem;
-  margin-top: 10px;
+  font-size: 2px;
+  margin-top: 15px;
 }
 h2{
   color: #493F1B;
@@ -70,5 +71,5 @@ h2{
   background-position: center;
   align-items: center;
   background-size: cover;
-  height: 250PX;
+  height: 300PX;
 }
